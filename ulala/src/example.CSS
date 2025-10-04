@@ -1,0 +1,39 @@
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f5f5f5;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Big center button */
+    .center-btn {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: black;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Small buttons */
+    .small-btn {
+      width: 200px;
+      height: 60px;
+      border-radius: 10%;
+      border: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }

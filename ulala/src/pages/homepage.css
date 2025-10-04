@@ -1,0 +1,89 @@
+/* General page background */
+.homepage-container {
+  min-height: 100vh;
+  padding: 1rem 1rem;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #a78bfa, #f472b6);
+}
+
+/* Centered header */
+.homepage-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+}
+
+.homepage-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.homepage-header p {
+  font-size: 1.25rem;
+  color: #272b30;
+}
+
+/* Cards grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4rem;
+}
+
+/* Individual card */
+.card {
+  position: relative;
+  background: linear-gradient(135deg, #8199b8, #00d9ff);
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid #e5e7eb;
+  transition: all 0.5s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+   transition:  0.5s ease;
+}
+
+.card:hover {
+  background: #2656a3;
+  transform: translateY(-12px);
+  box-shadow: 50px  25px 50px  rgba(0, 0, 0, 0.80);
+}
+
+
+/* Card content */
+.card-content {
+  position: relative;
+  z-index: 10;
+}
+
+.card-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+.homepage-footer {
+  text-align: center;
+  margin-top: 5rem;
+  color: #232a36;
+  font-size: 0.875rem;
+}
